@@ -10,7 +10,7 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 /[Aa]ssets/Plugins/Editor/ScriptInspector*
-/[Aa]ssets/BNG Framework*
+/[Aa]ssets/BNG Framework/*
 /[Aa]ssets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
 /[Aa]ssets/BrennanHatton/Webhooks/*.txt
 
