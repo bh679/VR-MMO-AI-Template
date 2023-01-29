@@ -1,4 +1,8 @@
-﻿// modified original sample code by unitycoder.com
+﻿/*
+modified original sample code by unitycoder.com
+From https://github.com/unitycoder/UnityOpenAIGPT3
+MIT License
+*/
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -6,9 +10,8 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Networking;
 using UnityEngine.UI;
-using UnityLibrary;
 
-namespace UnityLibrary
+namespace Unitycoder.GPT3
 {
 	public class InteractionData
 	{

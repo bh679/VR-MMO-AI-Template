@@ -1,4 +1,8 @@
-namespace UnityLibrary
+﻿/*
+From https://github.com/unitycoder/UnityOpenAIGPT3
+MIT License
+*/
+namespace Unitycoder.GPT3
 {
     [System.Serializable]
     public class RequestData
