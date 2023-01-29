@@ -22,9 +22,10 @@
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.inputsystem": "1.4.4"
+        "com.unity.inputsystem": "1.4.4",
+        "com.brennanhatton.unitytools": "1:0:1"
       },
-      "hash": "e36277b4b7165ea1e7574e39af7c6f27baade5bb"
+      "hash": "427604af73cf4c6d42980f7d968dc7243b209d26"
     },
     "com.unity.collab-proxy": {
       "version": "1.17.7",
