@@ -8,6 +8,13 @@ https://discord.gg/bd8KrVhd8u
 [BNG VRIF 1.82](https://assetstore.unity.com/packages/templates/systems/vr-interaction-framework-161066) (paid - import yourself)   <br />
 
 ## Setup Guide <br />
+ - Create New Repo
+ - Clone
+ - Rename ``BNG Framework1`` to ``BNG Framework``
+ - Open in Unity (Enter safe mode)
+ - Import VRIF (without project settings, yes to updating scripts)
+ - Get private keys (open ai, ms cog, PUN)
+ 
 1 - Import VRIF
 After cloning the project and opening in Unity, you may be asked to 'enter safe mode'. Do this.
 You will need to import VRIF.
