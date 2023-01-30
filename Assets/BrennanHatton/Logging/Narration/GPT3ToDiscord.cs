@@ -10,13 +10,23 @@ namespace BrennanHatton.Discord
 		public ClassDiscordConnection discord;
 		public GPT3 GPTAPI;
 		
+		void Reset()
+		{
+			discord = GameObject.FindObjectOfType<ClassDiscordConnection>();
+			GPTAPI = GameObject.FindObjectOfType<GPT3>();
+		}
+		
 		int interactionLength;
 		int promptLength;
 		
 		void Start()
 		{
+			if(discord != null && GPTAPI != null)
+			{
 			GPTAPI.onExecute.AddListener(SendPrompt);
-			GPTAPI.onResults.AddListener(SendResult);
+				GPTAPI.onResults.AddListener(SendResult);
+			}else
+				Debug.LogError("GPT3 Discord Connection not setup. Missing References.");
 		}
 	    
 		void SendPrompt(InteractionData interaction)
