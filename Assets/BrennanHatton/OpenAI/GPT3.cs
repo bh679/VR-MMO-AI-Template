@@ -1,4 +1,6 @@
 ﻿/*
+Modified by Brennan Hatton
+
 modified original sample code by unitycoder.com
 From https://github.com/unitycoder/UnityOpenAIGPT3
 MIT License
@@ -11,7 +13,7 @@ using UnityEngine.Events;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
-namespace Unitycoder.GPT3
+namespace BrennanHatton.AI
 {
 	public class InteractionData
 	{

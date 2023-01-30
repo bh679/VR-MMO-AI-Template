@@ -1,10 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using BrennanHatton.Discord;
-using UnityLibrary;
+using BrennanHatton.AI;
 
-namespace BrennanHatton.Logging
+namespace BrennanHatton.Discord
 {
 	public class GPT3ToDiscord : MonoBehaviour
 	{

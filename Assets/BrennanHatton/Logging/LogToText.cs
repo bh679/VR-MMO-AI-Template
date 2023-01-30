@@ -8,13 +8,13 @@ namespace BrennanHatton.Logging
 	public class LogToText : MonoBehaviour
 	{
 		public TMP_Text text;
-		
-	    // Start is called before the first frame update
-	    void Start()
-	    {
-	        
-	    }
 		int length = 0;
+		
+		void Reset()
+		{
+			text = this.GetComponent<TMP_Text>();
+		}
+		
 	    // Update is called once per frame
 	    void Update()
 		{

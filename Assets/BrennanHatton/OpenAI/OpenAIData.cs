@@ -1,8 +1,10 @@
 ﻿/*
-From https://github.com/unitycoder/UnityOpenAIGPT3
+Modified by Brennan Hatton
+
+Originally from https://github.com/unitycoder/UnityOpenAIGPT3
 MIT License
 */
-namespace Unitycoder.GPT3
+namespace BrennanHatton.AI
 {
     [System.Serializable]
     public class RequestData

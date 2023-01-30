@@ -5,7 +5,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
-using UnityLibrary;
+using BrennanHatton.AI;
 
 namespace BrennanHatton.Logging
 {
@@ -30,11 +30,20 @@ namespace BrennanHatton.Logging
 		public Narrrator[] narrators;
 		public int id;
 		
+		public void Reset()
+		{
+			GPTAPI = this.GetComponent<GPT3>();
+		}
+		
 		public void Introduction()
 		{
 			GPTAPI.Execute(narrators[id].introduction.text);
 		}
 		
+		public void RunActions()
+		{
+			RunActions(-1);
+		}
 		public void RunActions(int narratorId = -1, string additoinalPrompts = "")
 		{
 			if(narratorId >= 0)
