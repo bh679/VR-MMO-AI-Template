@@ -8,7 +8,7 @@ https://discord.gg/bd8KrVhd8u
 [BNG VRIF 1.82](https://assetstore.unity.com/packages/templates/systems/vr-interaction-framework-161066) (paid - import yourself)   <br />
 
 ## Setup Guide <br />
- - Create New Repo
+ - Create new repo from Template
  - Clone
  - Rename ``BNG Framework1`` to ``BNG Framework``
  - Open in Unity (Enter safe mode)
