@@ -13,6 +13,7 @@
 /[Aa]ssets/BNG Framework/*
 /[Aa]ssets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
 /[Aa]ssets/BrennanHatton/Webhooks/*.txt
+/[Aa]ssets/BrennanHatton/Private Keys/*.txt
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
