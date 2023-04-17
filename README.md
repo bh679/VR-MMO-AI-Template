@@ -31,8 +31,12 @@ Script Update Consent
 
 2 - Get Private Keys & Webhooks
 follow these guides to setup private keys and webhooks
- - Photon App ID ([guide](https://doc.photonengine.com/realtime/current/getting-started/obtain-your-app-id#:~:text=The%20App%20ID%20is%20a,ID%20just%20click%20on%20it.))
- - Discord WebHooks ([guide](https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook))
+ - Photon App ID ([guide](https://doc.photonengine.com/realtime/current/getting-started/obtain-your-app-id#:~:text=The%20App%20ID%20is%20a,ID%20just%20click%20on%20it.)) <br >
+You will need this Private Key to create and access your own seever with Photon.
+ - Discord WebHooks ([guide](https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook))<br >
+You will need this webhook to connect logging into discord.
+this is optional, but is a fnastic tool for knwoing when people are live in your game during early stages and community building.
+more info at Assets/BrennanHatton/Discord/README.txt
  
 ## Pre-Installed <br />
 [PUN 2](https://assetstore.unity.com/packages/tools/network/pun-2-free-119922) (free)<br />
