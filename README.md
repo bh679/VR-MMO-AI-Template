@@ -29,10 +29,11 @@ Windows -> Package Manager -> Packages: My Assets -> Search: `VRIF` -> Download/
 Script Update Consent
  - Yes, for these and other files that might be found later. 
 
-2 - Get Private Keys
-Make sure you have the Photon Ap ID in the
-Setup Discord Webhooks. Either contact Brennan to download private Unity Package, or follow instructions in Assets/BrennanHatton/Discord/README.txt to create your own
-
+2 - Get Private Keys & Webhooks
+follow these guides to setup private keys and webhooks
+ - Photon App ID ([guide](https://doc.photonengine.com/realtime/current/getting-started/obtain-your-app-id#:~:text=The%20App%20ID%20is%20a,ID%20just%20click%20on%20it.))
+ - Discord WebHooks ([guide](https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook))
+ 
 ## Pre-Installed <br />
 [PUN 2](https://assetstore.unity.com/packages/tools/network/pun-2-free-119922) (free)<br />
 [Photon Voice 2 - 2.50](https://assetstore.unity.com/packages/tools/audio/photon-voice-2-130518) (free)<br />
